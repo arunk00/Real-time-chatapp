@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+section.chat_section{
+
+    width: 800px;
+    min-width: 80%;
+    background: #fff;
+    box-shadow:black;
+    overflow: hidden;
+
+}
+
+.logo{
+    padding: 20px;
+    background: #f1f1f1;;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 60px;
+
+}
+.logo h1{
+text-transform: uppercase;
+font-size: 30px;
+margin-left: 10px;
+color: #444;
+
+}
+
+.message_area{
+   background: whitesmoke;
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid #fff;
+  
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background:whitesmoke;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background:darksalmon;
+    color: #fff;  
+}
+.outgoing {
+    background:rgba(0, 0, 0, 0.377);
+    color: #fff;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+
